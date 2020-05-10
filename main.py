@@ -4,8 +4,8 @@ from application import testapp
 from network import unreliable
 from transport import reliable
 
-NUM_PACKETS = 1
-ERROR_PROBABILITY = 0
+NUM_PACKETS = 1000
+ERROR_PROBABILITY = 0.5
 LOSS_PROBABILITY = 0
 
 ADDR_A = ('127.0.0.1', 5555)
